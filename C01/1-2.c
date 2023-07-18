@@ -1,8 +1,10 @@
+
+// this will not compile
 #include <stdio.h>
 
 main()
 {
 	printf("hello, ");
-	printf("world");
+	printf("wo\crld");
 	printf("\n");
 }
